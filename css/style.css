@@ -10,3 +10,14 @@ div {
     "main main about"
     "footer footer about";
 }
+.item-a {
+    grid-area: menu;
+    background-color: gray;
+}
+.item-a ul {
+    display: flex;
+    justify-content: space-around;
+}
+.item-a ul li {
+    list-style: none;
+}
