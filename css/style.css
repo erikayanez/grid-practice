@@ -1,0 +1,12 @@
+div {
+    border: 2px solid salmon;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-areas: 
+    "menu menu menu"
+    "main main about"
+    "footer footer about";
+}
